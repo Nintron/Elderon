@@ -1,0 +1,27 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "legs": {
+            "nbt": "{fireLeggings:1b}"
+          }
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "player": {
+        "advancements": {
+          "elderon:equipped/fire/basic_leggings": true
+        }
+      }
+    }
+  }
+]

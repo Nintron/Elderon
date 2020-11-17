@@ -1,0 +1,13 @@
+{
+    "parent": "elderon:root",
+    "criteria": {
+      "equipOrb": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "nbt": "{Inventory:[{Slot:9b,tag:{channelingOrb:1b}}]}"
+          }
+        }
+      }
+    }
+  }

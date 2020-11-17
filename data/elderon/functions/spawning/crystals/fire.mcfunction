@@ -1,0 +1,2 @@
+execute if predicate elderon:chance/random_10 positioned ~ ~-1.5 ~ if predicate elderon:crystals/fire unless entity @e[tag=fireHitbox,distance=..35] run summon minecraft:armor_stand ~ ~-0.19 ~ {NoGravity:1b,Tags:["fireHitbox"],DisabledSlots:4144959,Passengers:[{id:"minecraft:area_effect_cloud",NoGravity:1b,Duration:2000000000,Tags:["fireMarker","readyForHarvest"]}],ArmorItems:[{},{},{},{id:"minecraft:quartz",Count:1b,tag:{CustomModelData:11001023}}]}
+tag @s add eChecked

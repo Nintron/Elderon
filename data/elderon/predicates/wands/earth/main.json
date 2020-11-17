@@ -1,0 +1,35 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "eMana": {
+                "min": 4,
+                "max": 1000
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "player": {
+                "advancements": {
+                  "elderon:equipped/earth/orb": true
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }

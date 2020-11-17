@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "chest": {
+        "nbt": "{fireChestplate:1b}"
+      }
+    },
+    "player": {
+      "advancements": {
+        "elderon:equipped/fire/basic_chestplate": false,
+        "elderon:equipped/fire/orb": true
+      }
+    }
+  }
+}

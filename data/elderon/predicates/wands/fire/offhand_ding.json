@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "effects": {
+        "fire_resistance": {
+          "duration": {
+            "min": 80,
+            "max": 120
+          }
+        }
+      }
+    }
+  }

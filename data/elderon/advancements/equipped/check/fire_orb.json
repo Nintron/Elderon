@@ -1,0 +1,13 @@
+{
+    "parent": "elderon:equipped/check/equip_orb",
+    "criteria": {
+      "equipOrb": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": {
+            "nbt": "{Inventory:[{Slot:9b,tag:{fireOrb:1b}}]}"
+          }
+        }
+      }
+    }
+  }

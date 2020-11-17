@@ -1,0 +1,27 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "feet": {
+            "nbt": "{customArmor:1b}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "player": {
+          "advancements": {
+            "elderon:equipped/custom_boots": true
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "feet": {
+        "nbt": "{fireBoots:1b}"
+      }
+    },
+    "player": {
+      "advancements": {
+        "elderon:equipped/fire/basic_boots": false,
+        "elderon:equipped/fire/orb": true
+      }
+    }
+  }
+}

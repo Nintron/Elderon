@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "head": {
+        "nbt": "{fireHelmet:1b}"
+      }
+    },
+    "player": {
+      "advancements": {
+        "elderon:equipped/fire/basic_helmet": false,
+        "elderon:equipped/fire/orb": true
+      }
+    }
+  }
+}

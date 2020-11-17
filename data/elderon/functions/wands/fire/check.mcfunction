@@ -1,0 +1,2 @@
+execute if entity @s[predicate=elderon:selected/fire/wand_mainhand] run function elderon:wands/fire/main_check
+execute if entity @s[predicate=elderon:selected/fire/wand_offhand] run function elderon:wands/fire/offhand_check

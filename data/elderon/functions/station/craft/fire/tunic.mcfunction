@@ -1,0 +1,4 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:leather_chestplate",Count:1b,tag:{display:{Name:'[{"text":"[","color":"dark_gray","italic":false},{"text":" Fire Tunic ","color":"red","italic":false},{"text":"]","color":"dark_gray","italic":false}]',Lore:['{"text":"This tunic provides a slight","color":"dark_gray","italic":false}','{"text":"boost to fire mana cap, regen,","color":"dark_gray","italic":false}','{"text":"and power level","color":"dark_gray","italic":false}'],color:14897159},customArmor:1b,fireChestplate:1b}}]}
+
+particle crit ~ ~ ~ 0.55 0.55 0.55 0.01 40 normal
+playsound minecraft:block.anvil.use block @a[distance=..10] ~ ~ ~ 0.8 1.4

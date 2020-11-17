@@ -1,0 +1,2 @@
+execute if predicate elderon:chance/random_10 positioned ~ ~-1.5 ~ if predicate elderon:crystals/cosmos unless entity @e[tag=cosmosHitbox,distance=..100] run summon minecraft:armor_stand ~ ~-0.19 ~ {NoGravity:1b,Tags:["cosmosHitbox"],DisabledSlots:4144959,Passengers:[{id:"minecraft:area_effect_cloud",NoGravity:1b,Duration:2000000000,Tags:["cosmosMarker","readyForHarvest"]}],ArmorItems:[{},{},{},{id:"minecraft:quartz",Count:1b,tag:{CustomModelData:11001053}}]}
+tag @s add eChecked
