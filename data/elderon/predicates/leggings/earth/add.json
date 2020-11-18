@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "legs": {
+        "nbt": "{earthLeggings:1b}"
+      }
+    },
+    "player": {
+      "advancements": {
+        "elderon:equipped/earth/basic_leggings": false,
+        "elderon:equipped/earth/orb": true
+      }
+    }
+  }
+}

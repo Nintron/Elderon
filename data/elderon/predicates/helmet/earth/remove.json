@@ -1,0 +1,27 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "head": {
+            "nbt": "{earthHelmet:1b}"
+          }
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "player": {
+        "advancements": {
+          "elderon:equipped/earth/basic_helmet": true
+        }
+      }
+    }
+  }
+]

@@ -28,6 +28,18 @@ execute if block ~ ~ ~ dropper[facing=down]{Items:[{Slot:4b,Count:1b,tag:{earthC
 #Earth Orb
 execute if block ~ ~ ~ dropper[facing=down]{Items:[{Slot:0b,Count:1b,id:"minecraft:obsidian"},{Slot:1b,Count:1b,id:"minecraft:glass_pane"},{Slot:2b,Count:1b,id:"minecraft:obsidian"},{Slot:3b,Count:1b,id:"minecraft:glass_pane"},{Slot:4b,Count:1b,tag:{earthCore:1b}},{Slot:5b,Count:1b,id:"minecraft:glass_pane"},{Slot:6b,Count:1b,id:"minecraft:obsidian"},{Slot:7b,Count:1b,id:"minecraft:glass_pane"},{Slot:8b,Count:1b,id:"minecraft:obsidian"}]} run function elderon:station/craft/earth/orb
 
+#Earth Helmet
+execute if block ~ ~ ~ dropper[facing=down]{Items:[{Slot:0b,Count:1b,tag:{earthShard:1b}},{Slot:1b,Count:1b,tag:{earthShard:1b}},{Slot:2b,Count:1b,tag:{earthShard:1b}},{Slot:3b,Count:1b,tag:{earthShard:1b}},{Slot:4b,Count:1b,id:"minecraft:leather_helmet"},{Slot:5b,Count:1b,tag:{earthShard:1b}},{Slot:6b,Count:1b,tag:{earthShard:1b}},{Slot:7b,Count:1b,tag:{earthShard:1b}},{Slot:8b,Count:1b,tag:{earthShard:1b}},]} run function elderon:station/craft/earth/helmet
+
+#Earth Tunic
+execute if block ~ ~ ~ dropper[facing=down]{Items:[{Slot:0b,Count:1b,tag:{earthShard:1b}},{Slot:1b,Count:1b,tag:{earthShard:1b}},{Slot:2b,Count:1b,tag:{earthShard:1b}},{Slot:3b,Count:1b,tag:{earthShard:1b}},{Slot:4b,Count:1b,id:"minecraft:leather_chestplate"},{Slot:5b,Count:1b,tag:{earthShard:1b}},{Slot:6b,Count:1b,tag:{earthShard:1b}},{Slot:7b,Count:1b,tag:{earthShard:1b}},{Slot:8b,Count:1b,tag:{earthShard:1b}},]} run function elderon:station/craft/earth/tunic
+
+#Earth Leggings
+execute if block ~ ~ ~ dropper[facing=down]{Items:[{Slot:0b,Count:1b,tag:{earthShard:1b}},{Slot:1b,Count:1b,tag:{earthShard:1b}},{Slot:2b,Count:1b,tag:{earthShard:1b}},{Slot:3b,Count:1b,tag:{earthShard:1b}},{Slot:4b,Count:1b,id:"minecraft:leather_leggings"},{Slot:5b,Count:1b,tag:{earthShard:1b}},{Slot:6b,Count:1b,tag:{earthShard:1b}},{Slot:7b,Count:1b,tag:{earthShard:1b}},{Slot:8b,Count:1b,tag:{earthShard:1b}},]} run function elderon:station/craft/earth/leggings
+
+#Earth Boots
+execute if block ~ ~ ~ dropper[facing=down]{Items:[{Slot:0b,Count:1b,tag:{earthShard:1b}},{Slot:1b,Count:1b,tag:{earthShard:1b}},{Slot:2b,Count:1b,tag:{earthShard:1b}},{Slot:3b,Count:1b,tag:{earthShard:1b}},{Slot:4b,Count:1b,id:"minecraft:leather_boots"},{Slot:5b,Count:1b,tag:{earthShard:1b}},{Slot:6b,Count:1b,tag:{earthShard:1b}},{Slot:7b,Count:1b,tag:{earthShard:1b}},{Slot:8b,Count:1b,tag:{earthShard:1b}},]} run function elderon:station/craft/earth/boots
+
 #Earth Basic Wand
 execute if block ~ ~ ~ dropper[facing=down]{Items:[{Slot:1b,Count:1b,tag:{earthCore:1b}},{Slot:3b,id:"minecraft:gold_ingot",Count:1b},{Slot:4b,id:"minecraft:stick",Count:1b},{Slot:5b,id:"minecraft:gold_ingot",Count:1b},{Slot:7b,id:"minecraft:stick",Count:1b}]} run function elderon:station/craft/earth/wand
 
