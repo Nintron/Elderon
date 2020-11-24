@@ -6,14 +6,12 @@
 tp @s ^ ^ ^0.97
 
 #as ray travels these execute
-particle minecraft:smoke ~ ~ ~ 0.75 0.75 0.75 0.01 16 force
-particle minecraft:dust 1 0.19607843137254902 0.13725490196078433 1 ~ ~ ~ 0.79 0.79 0.79 0.3 9 force
-data merge entity @e[type=!player,type=!#elderon:ray/ignore_entities,distance=..1.6,sort=nearest,limit=1] {Fire:80s}
-execute as @e[type=!#elderon:ray/ignore_entities,distance=..1.6,sort=nearest,limit=1] unless score @s eUUID = @e[type=minecraft:area_effect_cloud,tag=fireRay1,sort=nearest,limit=1] eUUID run scoreboard players set @s cdInflictDamage 1
-function custom_damage:execute
+particle minecraft:dust 0.133 0.573 0 0.9 ~ ~ ~ 0.75 0.75 0.75 0.3 15 normal
+particle minecraft:dust 0.388 0.271 0.094 0.7 ~ ~ ~ 0.75 0.75 0.75 0.3 8 normal
+execute as @e[type=!#elderon:ray/ignore_entities,distance=..1.5,sort=nearest,limit=1] unless score @s eUUID = @e[type=area_effect_cloud,tag=earthRay1,sort=nearest,limit=1] eUUID run function elderon:wands/earth/main/1/effects
 
 #if ray runs into anything that isnt ignored end it
-execute as @s unless block ~ ~ ~ #elderon:ray/ignore_except_water run kill @s
+execute as @s unless block ~ ~ ~ #elderon:ray/ignore run kill @s
 
 #schedule more action functions while AEC is alive
-execute if entity @s run schedule function elderon:wands/fire/main/1/schedule 1t append
+execute if entity @s run schedule function elderon:wands/earth/main/1/schedule 1t append

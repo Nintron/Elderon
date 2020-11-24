@@ -1,2 +1,2 @@
-#execute if entity @s[predicate=elderon:selected/earth/wand_mainhand] run function elderon:wands/earth/main_check
+execute if entity @s[predicate=elderon:selected/earth/wand_mainhand] run function elderon:wands/earth/main_check
 execute if entity @s[predicate=elderon:selected/earth/wand_offhand] run function elderon:wands/earth/offhand_check

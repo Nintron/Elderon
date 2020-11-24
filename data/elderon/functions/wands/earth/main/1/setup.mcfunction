@@ -3,4 +3,4 @@
 ######################
 
 tp @s ~ ~1.5 ~
-execute at @s run function elderon:wands/fire/main/1/action
+execute at @s run function elderon:wands/earth/main/1/action
